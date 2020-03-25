@@ -39,7 +39,7 @@ const IndexPage = () => (
 
     <Section
       fontSize={[16, 24]}
-      maxWidth={800}
+      maxWidth={1150}
       paddingY={8}
     >
       <Heading paddingBottom={6}>Who we are</Heading>
