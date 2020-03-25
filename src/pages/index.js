@@ -32,8 +32,8 @@ const IndexPage = () => (
       <Heading {...headerStyling}>
         Be part of the #code4covid Tech Response team
       </Heading>
-      <Link to="/tech-landing/">
-        <Button style={buttonStyling}>VOLUNTEER</Button>
+      <Link to="/tech-volunteers/">
+        <Button style={buttonStyling}>TECH VOLUNTEERS</Button>
       </Link>
     </Section>
 
