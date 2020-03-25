@@ -8,7 +8,7 @@ import Section from "../components/section"
 const headerStyling = {
   color: "white",
   fontSize: ["36px", "48px", "64px", "64px", "84px"],
-  maxWidth: "847px",
+  maxWidth: "1400px",
   fontWeight: "bold",
   marginTop: [5,10],
 }
@@ -25,12 +25,12 @@ const IndexPage = () => (
       backgroundColor={"#B56AFF"}
       paddingY={[1,8]}
     >
-      <Heading {...headerStyling}>Need help in Quarantine?</Heading>
+      <Heading {...headerStyling}>Need help in <br/> Quarantine?</Heading>
       <Link to="/support-resources/">
         <Button {...buttonStyling}>SUPPORT RESOURCES</Button>
       </Link>
       <Heading {...headerStyling}>
-        Be part of the #code4covid Tech Response team
+        Be part of the <i>#code4covid</i> Tech Response team
       </Heading>
       <Link to="/tech-landing/">
         <Button style={buttonStyling}>VOLUNTEER</Button>
