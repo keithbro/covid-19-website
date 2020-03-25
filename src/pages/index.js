@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Button, Heading, Text } from "@chakra-ui/core"
+import { Button, Heading, Text, List, ListItem, Link as InlineLink } from "@chakra-ui/core"
 import { Link } from "gatsby"
 import Section from "../components/section"
 
@@ -44,8 +44,38 @@ const IndexPage = () => (
     >
       <Heading paddingBottom={6}>Who we are</Heading>
       <Text>
-        We are a team of helpers to help...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae enim mi. Etiam eget mi mi. In rhoncus nibh dolor, vel pulvinar ipsum pharetra eget. Aenean diam dolor, ullamcorper vitae dolor sit amet, convallis faucibus est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed euismod tortor sed suscipit aliquam. Curabitur sollicitudin lorem non nisl bibendum, nec iaculis metus bibendum.
+        Formed as a Slack group on March 16th by a couple of ex-colleagues, the <strong>code4covid</strong> community now counts over 400 tech volunteers: and with other groups joining in, it keeps growing!
       </Text>
+      <br />
+      <Text>
+        The team's mission is to find technology solutions to help people during the COVID-19 crisis: we believe that technology can minimise the disruption caused by the pandemic and ultimately save lives.
+      </Text>
+      <br />
+      <Text>
+        To ensure energy gets directed to the right places and efforts are not duplicated, we are also collaborating with initiatives formed by other inspiring groups as part of the COVID-19 Tech Response.
+      </Text>
+      <br />
+      <Text>
+        There are already lots of ongoing efforts to use tech to help in this crisis. These include:
+      </Text>
+      <br />
+      <List styleType="disc">
+        <ListItem>
+          <InlineLink href="https://coronavirustechhandbook.com" isExternal>coronavirustechhandbook.com</InlineLink> - COVID-19 Tech Response's library of resources
+        </ListItem>
+        <ListItem>
+          <InlineLink href="https://covidmutualaid.org" isExternal>covidmutualaid.org</InlineLink> - A direct line into local community efforts
+        </ListItem>
+        <ListItem>
+          <InlineLink href="https://TechForUK.com/join" isExternal>TechForUK</InlineLink> - Slack group for collecting volunteers and open discussion
+        </ListItem>
+        <ListItem>
+          <InlineLink href="https://covid19-response.com" isExternal>covid19-response.com</InlineLink> - Moderated scientific 'request for ideas'
+        </ListItem>
+        <ListItem>
+          <InlineLink href="https://helpwithcovid.com" isExternal>helpwithcovid.com</InlineLink> - International volunteer sign ups and ideas board
+        </ListItem>
+      </List>
     </Section>
   </Layout>
 )
